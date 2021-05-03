@@ -48,7 +48,7 @@ class NewTweet extends Component {
             maxLength={280}
           />
           {tweetLeft <= 100 && (
-            <div className="tweet-length">{text.length}</div>
+            <div className="tweet-length">{tweetLeft}</div>
           )}
           <button className="btn" type="submit" disabled={text.length === 0}>
             Submit
